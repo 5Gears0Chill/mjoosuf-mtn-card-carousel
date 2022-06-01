@@ -1,11 +1,22 @@
-.mtn-card {
+.mtn-card,
+.mtn-card-active {
     background-color: #f2f2f2;
-    box-shadow: 0 10px 220px 0 #f8f7f730, 0px 6px 2px #ffbf01;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-width: 0;
     text-align: center;
-    min-height: 18rem;
-    min-width: 18rem;
+
 }
+
+.mtn-card {
+    height: 16rem;
+}
+
+.mtn-card-active {
+    height: 27rem;
+    border-radius: 1rem;
+    border-bottom: 5px solid #ffbf01;
+}
+
 
 a.mtn-action-button {
     text-decoration: none;
@@ -14,14 +25,16 @@ a.mtn-action-button {
     font-weight: bold;
 }
 
-img.mtn-rounded-corners {
-    border-radius: 30px;
+.mtn-card-image {
+    width: 80px;
+    height: 80px;
 }
 
-.grow {
-    transition: all .2s ease-in-out;
+.mtn-card-image-active {
+    width: 150px;
+    height: 150px;
 }
 
-.grow:hover {
-    transform: scale(1.2);
+.shrink {
+    transform: scale(0.7);
 }

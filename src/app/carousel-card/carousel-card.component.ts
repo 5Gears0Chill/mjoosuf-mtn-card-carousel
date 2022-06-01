@@ -9,6 +9,8 @@ import { CarouselCardItem } from '../interfaces/carousel-card-item.interface';
 export class CarouselCardComponent implements OnInit {
   @Input()
   item?: CarouselCardItem;
+  @Input()
+  isSelected: boolean = false;
   
   constructor() { }
 
