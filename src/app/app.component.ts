@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { CarouselCardItem } from './interfaces/carousel-card-item.interface';
-
+import { CarouselCardItem } from 'projects/mtn-carousel/src/lib/interfaces/carousel-card-item.interface';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
