@@ -13,9 +13,6 @@ MIT
 @angular/platform-browser
 MIT
 
-@angular/router
-MIT
-
 mtn-carousel
 
 ngx-bootstrap/alert
