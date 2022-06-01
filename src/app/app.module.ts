@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { AlertModule } from 'ngx-bootstrap/alert';
 import { CarouselCardComponent } from './carousel-card/carousel-card.component';
+import { CarouselViewComponent } from './carousel-view/carousel-view.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CarouselCardComponent
+    CarouselCardComponent,
+    CarouselViewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+.mtn-carousel {
+    position: relative;
+}
+
+.mtn-carousel .btn.rounded-circle {
+    width: 40px;
+    height: 40px;
+}
+
+.mtn-carousel .mtn-carousel-top {
+    margin-top: 64px;
+}
+
+.mtn-carousel .mtn-carousel-bottom {
+    margin-top: -90px;
+    margin-bottom: 50px;
+}

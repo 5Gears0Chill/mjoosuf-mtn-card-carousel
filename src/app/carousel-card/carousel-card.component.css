@@ -1,0 +1,27 @@
+.mtn-card {
+    background-color: #f2f2f2;
+    box-shadow: 0 10px 220px 0 #f8f7f730, 0px 6px 2px #ffbf01;
+    border-width: 0;
+    text-align: center;
+    min-height: 18rem;
+    min-width: 18rem;
+}
+
+a.mtn-action-button {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+img.mtn-rounded-corners {
+    border-radius: 30px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
