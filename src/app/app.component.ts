@@ -10,29 +10,24 @@ export class AppComponent {
   isDarkModeEnabled: boolean = false;
   items: CarouselCardItem[] = [
     {
-      cardHeading: 'Card 1',
+      cardHeading: 'Home internet',
       actionButtonText: 'START HERE >',
       actionButtonHref: '#',
     },
     {
-      cardHeading: 'Card 2',
+      cardHeading: 'Get a device',
       actionButtonText: 'START HERE >',
       actionButtonHref: '#',
     },
     {
-      cardHeading: 'Card 3',
+      cardHeading: 'Add a phone-line',
       actionButtonText: 'START HERE >',
       actionButtonHref: '#',
     },
     {
-      cardHeading: 'Card 4',
+      cardHeading: 'Upgrade',
       actionButtonText: 'START HERE >',
       actionButtonHref: '#',
-    },
-    {
-      cardHeading: 'Card 5',
-      actionButtonText: 'START HERE >',
-      actionButtonHref: '#',
-    },
+    }
   ]
 }
