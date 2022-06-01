@@ -12,11 +12,22 @@
 }
 
 .mtn-card-active {
-    height: 27rem;
+    height: 32rem;
     border-radius: 1rem;
     border-bottom: 5px solid #ffbf01;
 }
 
+.mtn-card-active.dark {
+    background-color: black;
+    color: white;
+}
+
+.mtn-card-active.dark a {
+    color: white;
+}
+.dark .mtn-card-image-active{
+    filter: invert();
+}
 
 a.mtn-action-button {
     text-decoration: none;

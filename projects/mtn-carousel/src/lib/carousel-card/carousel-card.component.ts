@@ -11,6 +11,8 @@ export class CarouselCardComponent implements OnInit {
   item?: CarouselCardItem;
   @Input()
   isSelected: boolean = false;
+  @Input()
+  isDarkModeEnabled: boolean = false;
   
   constructor() { }
 

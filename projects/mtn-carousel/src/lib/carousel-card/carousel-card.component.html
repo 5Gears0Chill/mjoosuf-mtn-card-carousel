@@ -1,9 +1,10 @@
 <div [ngClass]="{
     'mtn-card': !isSelected,
-    'mtn-card-active': isSelected
+    'mtn-card-active': isSelected,
+    'bg-gradient dark': isDarkModeEnabled
   }" class="card text-center ">
     <div class="card-body" >
-        <div class="m-5">
+        <div class="mt-5 mb-5">
             <img [ngClass]="{
                 'mtn-card-image': !isSelected,
                 'mtn-card-image-active': isSelected

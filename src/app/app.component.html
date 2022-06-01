@@ -1,3 +1,13 @@
 <div class="container">
-    <app-carousel-view [items]="items"></app-carousel-view>
+    <app-carousel-view [items]="items" [isDarkModeEnabled]="isDarkModeEnabled"></app-carousel-view>
+    <div class="row mt-5">
+        <div class="col">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="darkModeToggle"
+                    [(ngModel)]="isDarkModeEnabled">
+                <label class="form-check-label" for="darkModeToggle">Toggle Dark Mode</label>
+            </div>
+        </div>
+    </div>
+    {{isDarkModeEnabled}}
 </div>

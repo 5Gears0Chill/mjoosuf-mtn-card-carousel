@@ -7,6 +7,7 @@ import { CarouselCardItem } from 'projects/mtn-carousel/src/lib/interfaces/carou
 })
 export class AppComponent {
   title = 'cardCarousel';
+  isDarkModeEnabled: boolean = false;
   items: CarouselCardItem[] = [
     {
       cardHeading: 'Card 1',

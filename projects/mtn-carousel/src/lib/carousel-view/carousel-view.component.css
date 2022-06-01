@@ -1,6 +1,9 @@
 .mtn-carousel {
     position: relative;
 }
+.mtn-carousel .mtn-carousel-heading {
+    margin-bottom: -192px;
+}
 
 .mtn-carousel .btn.rounded-circle {
     width: 40px;
@@ -11,6 +14,10 @@
     margin-top: 64px;
 }
 
+.dark {
+    background-color: #ffbf01;
+    color: black;
+}
 .mtn-carousel .mtn-carousel-bottom {
     margin-top: -64px;
 }

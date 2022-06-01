@@ -9,6 +9,8 @@ import { CarouselCardItem } from '../interfaces/carousel-card-item.interface';
 export class CarouselViewComponent implements OnInit {
   @Input()
   items: CarouselCardItem[] = [];
+  @Input()
+  isDarkModeEnabled: boolean = false;
 
   cards: CarouselCardItem[] = [];
   selected?: number;

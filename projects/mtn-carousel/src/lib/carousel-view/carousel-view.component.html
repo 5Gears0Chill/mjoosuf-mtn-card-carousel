@@ -1,26 +1,34 @@
-<div class="mtn-carousel">
+<div class="mtn-carousel pt-5">
+    <div class="row mtn-carousel-heading">
+        <div class="col-2 offset-lg-2">
+            <div class="h2 fw-normal">What are you <br><span class="fw-bold">here to do?</span></div>
+        </div>
+    </div>
     <div class="mtn-carousel-top">
         <div class="row align-items-center justify-content-center ">
             <div [ngClass]="{
-                'col-2': card !== selectedCard,
-                'col-4': card === selectedCard
+                'col-2': card !== selectedCard && view === 'desktop',
+                'col-4': card === selectedCard && view === 'desktop',
+                'col-3': card !== selectedCard && view === 'tablet',
+                'col-6': card === selectedCard && view === 'tablet'
               }" class="" *ngFor="let card of cards; index as i">
-                <app-carousel-card [item]="card" [isSelected]="card == selectedCard" >
+                <app-carousel-card [item]="card" [isSelected]="card == selectedCard"
+                    [isDarkModeEnabled]="isDarkModeEnabled">
                 </app-carousel-card>
             </div>
         </div>
     </div>
     <div class="mtn-carousel-bottom">
         <div class="row d-flex justify-content-center">
-            <div class="col-lg-4 col-md-2 text-center">
+            <div class="col-4 text-center">
                 <div class="">
-                    <button class="btn btn-dark btn-left rounded-circle border-0" (click)="back()">
+                    <button [ngClass]="{'dark': isDarkModeEnabled}" class="btn btn-dark btn-left rounded-circle border-0" (click)="back()">
                         &lt;
                     </button>
                 </div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-lg-4 col-md-2 text-center">
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-4 text-center">
                 <div class="">
                     <button class="btn btn-dark btn-left rounded-circle border-0" (click)="next()">
                         &gt;
