@@ -1,6 +1,13 @@
 {
-  "name": "mtn-carousel",
+  "name": "@paxxioptyltd/mtn-carousel",
   "version": "0.0.1",
+  "description": "Carousel Designed as per MTN Guidelines",
+  "author": "Muaaz Joosuf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5Gears0Chill/mjoosuf-mtn-card-carousel"
+  },
+  "homepage": "https://5gears0chill.github.io/mjoosuf-mtn-card-carousel/",
   "peerDependencies": {
     "@angular/common": "^13.3.0",
     "@angular/core": "^13.3.0"

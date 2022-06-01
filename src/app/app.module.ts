@@ -14,7 +14,6 @@ import { MtnCarouselModule } from 'projects/mtn-carousel/src/public-api';
     BrowserModule,
     FormsModule,
     MtnCarouselModule,
-    AppRoutingModule,
     BsDropdownModule.forRoot(),
     AlertModule.forRoot()
   ],
